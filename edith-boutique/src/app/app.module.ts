@@ -12,6 +12,7 @@ import { ModalsComponent } from './components/modals/modals.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
+import { WishlistPageComponent } from './pages/wishlist-page/wishlist-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { WishlistComponent } from './components/wishlist/wishlist.component';
     ModalsComponent,
     NavBarComponent,
     CheckoutComponent,
-    WishlistComponent
+    WishlistComponent,
+    WishlistPageComponent
   ],
   imports: [
     BrowserModule,
