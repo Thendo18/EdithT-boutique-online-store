@@ -10,6 +10,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { CartComponent } from './components/cart/cart.component';
 import { ModalsComponent } from './components/modals/modals.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     ProductsComponent,
     CartComponent,
     ModalsComponent,
-    NavBarComponent
+    NavBarComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
