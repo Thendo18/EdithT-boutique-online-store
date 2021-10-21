@@ -8,6 +8,8 @@ import { CheckoutPageComponent } from './pages/checkout-page/checkout-page.compo
 import { ProductPageComponent } from './pages/product-page/product-page.component';
 import { ProductsComponent } from './components/products/products.component';
 import { CartComponent } from './components/cart/cart.component';
+import { ModalsComponent } from './components/modals/modals.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CartComponent } from './components/cart/cart.component';
     CheckoutPageComponent,
     ProductPageComponent,
     ProductsComponent,
-    CartComponent
+    CartComponent,
+    ModalsComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
